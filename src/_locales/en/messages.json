@@ -1,14 +1,14 @@
 {
   "extName": {
-    "message": "Just Tweet Button",
+    "message": "Just Note Button ｰLeisskey",
     "description": "Extension name."
   },
   "extDesc": {
-    "message": "Just tweet browsing site, without any other features",
+    "message": "Just Note browsing site, without any other features",
     "description": "Extension description."
   },
   "buttonTip": {
-    "message": "Just Tweet Now!",
+    "message": "Just Note Now!",
     "description": "Button tooltip."
   }
 }

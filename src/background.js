@@ -1,6 +1,6 @@
 function onClicked(tab) {
   var prefix = ' » '
-  var url = 'https://twitter.com/intent/tweet?'
+  var url = 'https://misskey.lei202.com/share?'
     + 'text=' + encodeURIComponent(prefix) + encodeURIComponent(tab.title)
     + '&url=' + encodeURIComponent(tab.url);
   var w = 640;
