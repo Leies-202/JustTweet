@@ -1,25 +1,21 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "__MSG_extName__",
-  "version": "1.2",
-
+  "version": "1.3",
   "default_locale": "en",
   "description": "__MSG_extDesc__",
   "icons": {
     "16": "icon_16.png",
     "128": "icon_128.png"
   },
-
-  "browser_action": {
-    "default_icon": "icon_16.png",
-    "default_title": "__MSG_buttonTip__"
-  },
-
   "background": {
-    "persistent": false,
-    "scripts": [ "background.js" ]
+    "service_worker": "background.js"
   },
   "permissions": [
-    "tabs"
-  ]
+    "activeTab"
+  ],
+  "action": {
+    "default_icon": "icon_16.png",
+    "default_title": "__MSG_buttonTip__"
+  }
 }
